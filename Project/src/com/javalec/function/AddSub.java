@@ -1,6 +1,4 @@
-package com.javalec.funtion;
-
-import com.javalec.funtion.Add;
+package com.javalec.function;
 
 public class AddSub extends Add{
 	
