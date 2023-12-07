@@ -34,6 +34,9 @@ public class Main {
 		System.out.println("2. " + num1 + "과 " + num3 + ", " + num4 + "의 덧셈 뺄셈 곱셈 나눗셈의 결과는 덧셈 : "
 				+ (add.num1 + add.num3 + add.num4));
 
+		System.out.println(">>>Constuctor를 사용");
+		System.out.println("1. " + num3 + "과 " + num4 + "번의 덧셈, 뺄셈, 곱셈의 결과는 덧셈 : " + add.Add(num3, num4));
+
 	}
 
 }
