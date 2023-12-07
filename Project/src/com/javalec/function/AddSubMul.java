@@ -25,12 +25,9 @@ public class AddSubMul extends AddSub {
 
 	public int AddSubMul(int num1, int num2 ,int num3) {							//숫자 3개를 입력받고 constructor 에서 곱셈하여 다시 메인으로 보내기
 		 return super.num1*num2*num3;
-		 
-	public int AddSubMul(int num1 , int num2 ) {
-		return super.num3*num4;
-		
 	}
-			}
+		 
+
 
 	// Method
 
