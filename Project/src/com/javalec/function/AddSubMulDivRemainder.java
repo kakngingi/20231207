@@ -2,15 +2,15 @@ package com.javalec.function;
 
 public class AddSubMulDivRemainder extends AddSubMulDiv {
 /*
-Description : AddSubMulDiv로부터 상속받아 덧셈 + 뺼셈 + 곱셈 + 나눗셈을 출력하는 프로그램 
-Date : 23.12.07
-Version : 1.0 
-Author : 강인기
+	Description : AddSubMulDiv로부터 상속받아 덧셈 + 뺼셈 + 곱셈 + 나눗셈 + 나머지를 출력하는 프로그램 
+	Date : 23.12.07
+	Version : 1.0 
+	Author : 강인기
  */
 	
 	
 	// Field
-	int remainder;
+	int remainder; // 나머지값 변수
 	
 	
 	
@@ -22,10 +22,10 @@ Author : 강인기
 	}
 	
 	// Method
-	public void remainder(int num1, int num2, int num4) {
-		remainder = num1 % num2 % num4;
+	public void remainder(int num1, int num2, int num4) { // 입력값 3개를 받아옴 
+		remainder = num1 % num2 % num4; // 입력받은 3숫자의 나머지값을 구한다
 		
-		System.out.println(remainder);
+		System.out.println((double)remainder); 
 		
 	}
 	
