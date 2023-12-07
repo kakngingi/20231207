@@ -1,12 +1,28 @@
 package com.javalec.function;
 
-public class AddSubMulDivRemainder {
+public class AddSubMulDivRemainder extends AddSubMulDiv {
+/*
+Description : AddSubMulDiv로부터 상속받아 덧셈 + 뺼셈 + 곱셈 + 나눗셈을 출력하는 프로그램 
+Date : 23.12.07
+Version : 1.0 
+Author : 강인기
+ */
+	
+	
 	// Field
-	public int firstNum
-	pu
+	int remainder;
+	
 	
 	// Constructor
+	public AddSubMulDivRemainder() {
+		// TODO Auto-generated constructor stub
+	}
 	
 	// Method
+	public void remainder(int num1, int num2, int num3, int num4) {
+		
+		
+		
+	}
 	
 }
