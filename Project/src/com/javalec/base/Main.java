@@ -30,7 +30,9 @@ public class Main {
 		add.num4 = num4;
 
 		System.out.println(">>>Feild를 사용");
-		System.out.println(num1 + "과 " + num2 + "의 숫자 합은 " + add.addResult() + "입니다.");
+		System.out.println("1. " + num1 + "과 " + num2 + "의 숫자 합은 " + (add.num1 + add.num2) + "입니다.");
+		System.out.println("2. " + num1 + "과 " + num3 + ", " + num4 + "의 덧셈 뺄셈 곱셈 나눗셈의 결과는 덧셈 : "
+				+ (add.num1 + add.num3 + add.num4));
 
 	}
 
