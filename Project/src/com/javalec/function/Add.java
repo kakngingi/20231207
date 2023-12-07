@@ -1,6 +1,7 @@
 package com.javalec.function;
 
 public class Add {
+	
 	// Field
 	public int num1;
 	public int num2;
