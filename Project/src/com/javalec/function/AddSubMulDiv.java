@@ -9,7 +9,7 @@ public class AddSubMulDiv extends AddSubMul {
 
 	// Field
 
-	int div;
+	double div;
 
 	// Constructor
 	public AddSubMulDiv() {
@@ -17,7 +17,7 @@ public class AddSubMulDiv extends AddSubMul {
 	}
 
 	// Method
-	public void div(int n1, int n2, int n4) {
+	public void div(double n1, double n2, double n4) {
 //		super.mul();
 		if (n1 > Integer.MIN_VALUE)
 			div = n1 / n2 / n4;
