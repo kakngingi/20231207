@@ -13,15 +13,19 @@ Author : 강인기
 	int remainder;
 	
 	
+	
+	
+	
 	// Constructor
 	public AddSubMulDivRemainder() {
 		// TODO Auto-generated constructor stub
 	}
 	
 	// Method
-	public void remainder(int num1, int num2, int num3, int num4) {
+	public void remainder(int num1, int num2, int num4) {
+		remainder = num1 % num2 % num4;
 		
-		
+		System.out.println(remainder);
 		
 	}
 	
