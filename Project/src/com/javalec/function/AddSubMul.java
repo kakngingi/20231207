@@ -15,6 +15,9 @@ public class AddSubMul extends AddSub {
 	
 	
 	// Field
+	
+	int Mul;
+
 
 	// constructor
 
