@@ -16,7 +16,7 @@ public class AddSubMul extends AddSub {
 	
 	// Field
 	
-	int Mul;
+	int Mul;																			// 변수 값 지정
 
 
 	// constructor
