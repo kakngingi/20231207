@@ -23,12 +23,12 @@ public class AddSubMul extends AddSub {
 
 	}
 	
-	public int AddSubMul(int num1, int num2) {
+	public int AddSubMul(int num1, int num2) {									//2개를 입력받으면 2개를 곱해지는 식
 		
 		return num1*num2;
 	}
 	
-	public int AddSubMul(int num1, int num2,int num3) {
+	public int AddSubMul(int num1, int num2,int num3) {							//3개를 입력받으면 3개를 곱해지는 
 		
 		return num1*num2*num3;
 	}
