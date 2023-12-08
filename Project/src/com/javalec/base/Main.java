@@ -54,15 +54,13 @@ public class Main {
 		System.out.println("덧셈: " + calc.addResult());
 		System.out.println("뺄셈: " + calc.AddSubResult1());
 		System.out.println("곱셈: " + calc.AddSumMulresult());
-		System.out.print("나눗셈: ");
-		calc.div(num1, num2, num4);
-		System.out.print("나머지 : ");
-		calc.remainder(num1, num2, num4);
+		System.out.println("나눗셈: " + calc.div(num1, num2, num4));
+		System.out.println("나머지 : " + calc.remainder(num1, num2, num4));
+	
 
 		System.out.println("2. " + num2 + "번과 " + num4 + "번의 *뺄셈과 나눗셈* 의 결과는");
 		System.out.println("뺄셈 : " + calc.AddSubResult2());
-		System.out.print("나눗셈 : ");
-		calc.div(num2, num4);
+		System.out.println("나눗셈 : "+ calc.div(num2, num4));
 		System.out.println("---------------------------------------------------------------------");
 
 		

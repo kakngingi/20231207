@@ -26,7 +26,7 @@ public class AddSubMulDivRemainder extends AddSubMulDiv {
 	// Method
 	public double remainder(double num1, double num2, double num3) { // 입력값 3개를 받아옴 
 		
-		return num1%num2%num3;
+		return num1%num2%num3;  
 		
 	}
 	
