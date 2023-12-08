@@ -10,7 +10,7 @@ public class AddSubMulDivRemainder extends AddSubMulDiv {
 	
 	
 	// Field
-	int remainder; // 나머지값 변수
+
 	
 	
 	
@@ -18,14 +18,15 @@ public class AddSubMulDivRemainder extends AddSubMulDiv {
 	
 	// Constructor
 	public AddSubMulDivRemainder() {
-		// TODO Auto-generated constructor stub
+	
 	}
 	
+	
+
 	// Method
-	public void remainder(int num1, int num2, int num4) { // 입력값 3개를 받아옴 
-		remainder = num1 % num2 % num4; // 입력받은 3숫자의 나머지값을 구한다
+	public double remainder(double num1, double num2, double num3) { // 입력값 3개를 받아옴 
 		
-		System.out.println((double)remainder); 
+		return num1%num2%num3;
 		
 	}
 	

@@ -8,7 +8,7 @@ public class AddSubMulDiv extends AddSubMul {
 	 */
 
 	// Field
-
+	double div;
 
 	// Constructor
 	public AddSubMulDiv() {
